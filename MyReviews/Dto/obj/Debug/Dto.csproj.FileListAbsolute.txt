@@ -1,0 +1,5 @@
+C:\Users\SAVVYIT\Desktop\MyReviews\Dto\bin\Debug\Dto.dll
+C:\Users\SAVVYIT\Desktop\MyReviews\Dto\bin\Debug\Dto.pdb
+C:\Users\SAVVYIT\Desktop\MyReviews\Dto\obj\Debug\Dto.csprojResolveAssemblyReference.cache
+C:\Users\SAVVYIT\Desktop\MyReviews\Dto\obj\Debug\Dto.dll
+C:\Users\SAVVYIT\Desktop\MyReviews\Dto\obj\Debug\Dto.pdb
