@@ -15,7 +15,7 @@ namespace Dto
         private string email;
         private string gender;
         private DateTime dateofBirth;
-        private int mobileNumber;
+        private long mobileNumber;
         private string password;
         private string adress;
         private string city;
@@ -50,7 +50,7 @@ namespace Dto
             get { return this.dateofBirth; }
             set { this.dateofBirth = value; }
         }
-        public int MobileNumber
+        public long MobileNumber
         {
             get { return this.mobileNumber; }
             set { this.mobileNumber = value; }

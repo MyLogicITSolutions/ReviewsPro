@@ -24,7 +24,8 @@ namespace MyReviews
             userObj.FirstName = txtFirstName.Text;
             userObj.LastName = txtLastName.Text;
             userObj.Gender = ddlGender.SelectedIndex.ToString();
-            userObj.MobileNumber =Convert.ToInt32(txtMobilenumber.Text);
+            userObj.MobileNumber = Int64.Parse(txtMobilenumber.Text); 
+            txtMobilenumber.Text = Int32.MaxValue.ToString();
             userObj.Password = txtPassword.Text;
             userObj.Email = txtEmail.Text;
             userObj.City = DDL3.SelectedIndex.ToString();
@@ -56,7 +57,11 @@ namespace MyReviews
                         cmd.Parameters.AddWithValue("@city", obj.City);
                         cmd.Parameters.AddWithValue("@password", obj.Password);
                         con.Open();
-                        cmd.ExecuteNonQuery();
+                        int dbkey = Convert.ToInt32(cmd.ExecuteScalar());
+                        if (dbkey != 0)
+                        {
+                            txtResult.InnerText = "Success";
+                        }
                     }
                 }
             }
@@ -67,6 +72,9 @@ namespace MyReviews
             return retObj;
         }
 
-
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+        }
     }
 }
