@@ -10,7 +10,8 @@
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Welcome</h2><h2 id="txtUserName"></h2>
+            <h2>Welcome</h2><h2 id="txtUserName" runat="server"></h2>
+
             <p>
                Welcome to Reviews
             </p>

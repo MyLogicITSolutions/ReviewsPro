@@ -123,6 +123,7 @@
              <tr>
                 <td><asp:Button ID="Button1" runat="server" Text="register" OnClick="Button1_Click" /></td>
             </tr>
+            <asp:Button ID="Button2" runat="server" Text="Login" />
           </table>
         <h1 id="txtResult" runat="server"></h1>
        

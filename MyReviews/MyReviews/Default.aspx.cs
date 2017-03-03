@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Dto;
 
 namespace MyReviews
 {
@@ -11,7 +12,8 @@ namespace MyReviews
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Users usd = new Users();
+            txtUserName.InnerText = usd.FirstName + usd.LastName;
         }
     }
 }
