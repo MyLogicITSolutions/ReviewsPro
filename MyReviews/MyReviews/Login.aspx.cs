@@ -19,7 +19,7 @@ namespace MyReviews
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void btnLogin(object sender, EventArgs e)
         {
             string connectionString = ConfigurationManager.ConnectionStrings["DBCON"].ConnectionString;
             try
@@ -29,20 +29,18 @@ namespace MyReviews
                     //  SqlCommand cmd = new SqlCommand("select FirstName,LastName from users where email=@email and password=@password", con)
                     Users usd = new Users();
                     string userName = username.Text;
-                    SqlDataAdapter da = new SqlDataAdapter("select FirstName,LastName from users where email=@email and password=@password",con); // and password=" +password.Text+"",con);
+                    SqlDataAdapter da = new SqlDataAdapter("select FirstName,LastName from users where email=@email and password=@password", con); // and password=" +password.Text+"",con);
                     da.SelectCommand.Parameters.AddWithValue("@email", userName);
                     da.SelectCommand.Parameters.AddWithValue("@password", password.Text);
                     DataSet ds = new DataSet();
                     da.Fill(ds);
                     for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
                     {
-                        usd.FirstName=ds.Tables[0].Rows[i]["FirstName"].ToString();
+                        usd.FirstName = ds.Tables[0].Rows[i]["FirstName"].ToString();
                         usd.LastName = ds.Tables[0].Rows[i]["LastName"].ToString();
+                        Response.Redirect("Default.aspx");
                     }
-                    //    gridView.DataSource = ds;
-                    //gridView.DataBind();
-                    //  gridView.DataSource = ds;
-                    //     gridView.DataBind();
+                   
 
 
                 }
@@ -51,7 +49,40 @@ namespace MyReviews
             {
 
             }
+
         }
-            
+        //protected void Login(object sender, EventArgs e)
+        //{
+        //    string connectionString = ConfigurationManager.ConnectionStrings["DBCON"].ConnectionString;
+        //    try
+        //    {
+        //        using (SqlConnection con = new SqlConnection(connectionString))
+        //        {
+        //            //  SqlCommand cmd = new SqlCommand("select FirstName,LastName from users where email=@email and password=@password", con)
+        //            Users usd = new Users();
+        //            string userName = username.Text;
+        //            SqlDataAdapter da = new SqlDataAdapter("select FirstName,LastName from users where email=@email and password=@password", con); // and password=" +password.Text+"",con);
+        //            da.SelectCommand.Parameters.AddWithValue("@email", userName);
+        //            da.SelectCommand.Parameters.AddWithValue("@password", password.Text);
+        //            DataSet ds = new DataSet();
+        //            da.Fill(ds);
+        //            for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
+        //            {
+        //                usd.FirstName = ds.Tables[0].Rows[i]["FirstName"].ToString();
+        //                usd.LastName = ds.Tables[0].Rows[i]["LastName"].ToString();
+        //            }
+        //            //    gridView.DataSource = ds;
+        //            //gridView.DataBind();
+        //            //  gridView.DataSource = ds;
+        //            //     gridView.DataBind();
+
+
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+
+        //    }
+        //}
     }
 }

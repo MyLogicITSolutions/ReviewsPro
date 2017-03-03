@@ -110,7 +110,7 @@
                  <td><asp:Label ID="Label5" runat="server" Text="Upload Profile Picture"></asp:Label></td>
                  <td><asp:FileUpload ID="FileUpload1" runat="server" />
                      <br />
-                     <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">LinkButton</asp:LinkButton>
+                     <%--<asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">LinkButton</asp:LinkButton>--%>
                  </td>
                  
              </tr>

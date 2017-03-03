@@ -20,6 +20,8 @@ namespace MyReviews
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            try
+             { 
             Users userObj = new Users();
             userObj.FirstName = txtFirstName.Text;
             userObj.LastName = txtLastName.Text;
@@ -33,7 +35,12 @@ namespace MyReviews
             userObj.Adress = txtAddress.Text;
             userObj.DateofBirth =Convert.ToDateTime(txtDob.Text);
             Users retobj = Register1(userObj);
-        }
+            }
+            catch(Exception ex)
+            {
+                txtResult.InnerText = "Please Check the details again";
+            }
+         }
 
         public Users Register1(Users obj)
         {
@@ -60,21 +67,26 @@ namespace MyReviews
                         int dbkey = Convert.ToInt32(cmd.ExecuteScalar());
                         if (dbkey != 0)
                         {
-                            txtResult.InnerText = "Success";
+                           
+                            Response.Redirect("Login.aspx");
+                        }
+                        else
+                        {
+                            txtResult.InnerText = "Please Check the details again";
                         }
                     }
                 }
             }
             catch (Exception ex)
             {
-                return null;
+                txtResult.InnerText = "Please Check the details again";
             }
             return retObj;
         }
 
-        protected void LinkButton1_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Login.aspx");
-        }
+        //protected void LinkButton1_Click(object sender, EventArgs e)
+        //{
+        //    Response.Redirect("Login.aspx");
+        //}
     }
 }
