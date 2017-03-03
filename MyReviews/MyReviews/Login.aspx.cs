@@ -40,7 +40,7 @@ namespace MyReviews
                     
                     // Users usd = new Users();
                     string userName = username.Text;
-                     da = new SqlDataAdapter("select FirstName,LastName from users where email=@email and password=@password", con); // and password=" +password.Text+"",con);
+                    da = new SqlDataAdapter("select FirstName,LastName from users where email=@email and password=@password", con); // and password=" +password.Text+"",con);
                     da.SelectCommand.Parameters.AddWithValue("@email", userName);
                     da.SelectCommand.Parameters.AddWithValue("@password", password.Text);
                     DataSet ds = new DataSet();

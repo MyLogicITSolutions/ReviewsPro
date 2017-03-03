@@ -211,8 +211,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Images\fav_act.jpg" />
-    <Content Include="Images\Mobiles.jpg" />
+    <Content Include="Images\image.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="Product.aspx" />
     <Content Include="Profile.aspx" />
