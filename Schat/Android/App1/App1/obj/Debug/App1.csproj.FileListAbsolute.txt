@@ -51,5 +51,6 @@ E:\My Folder\Personal Projects\App1\App1\obj\Debug\res\drawable\img.xml
 E:\My Folder\Personal Projects\App1\App1\obj\Debug\res\drawable\circle.xml
 E:\My Folder\Personal Projects\App1\App1\obj\Debug\res\layout\startlayout.xml
 E:\My Folder\Personal Projects\App1\App1\obj\Debug\res\drawable\conversation.png
+E:\My Folder\Personal Projects\App1\App1\obj\Debug\res\layout\otpreceiverlayout.xml
 E:\My Folder\Personal Projects\App1\App1\obj\Debug\App1.dll.mdb
 E:\My Folder\Personal Projects\App1\App1\bin\Debug\App1.dll.mdb

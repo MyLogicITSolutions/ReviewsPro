@@ -32,6 +32,7 @@ namespace App1
                 Intent intent = new Intent(this, typeof(Registration));
                 StartActivity(intent);
             };
+
             // Create your application here
         }
     }

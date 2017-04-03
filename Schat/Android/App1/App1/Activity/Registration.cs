@@ -19,27 +19,27 @@ using System.IO;
 using Android.Media;
 using System.Threading;
 using System.Drawing;
+using Android.Telephony;
 
 namespace App1
 {
     [Activity(Label = "Register here" , MainLauncher = false)]
     public class Registration : Activity
     {
+        public string otp = "";
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Registration);
-           
+            //var url = "http://sms.latestsms.in/wp-content/uploads/facebook-profile-pictures14.jpg";
 
-            var url = "http://sms.latestsms.in/wp-content/uploads/facebook-profile-pictures14.jpg";
-
-            Bitmap _bimage = GetImageBitmapFromUrl(url);
+            //Bitmap _bimage = GetImageBitmapFromUrl(url);
 
             //Bitmap _bfinal = getRoundedShape(_bimage);
 
             ImageView propicimage = FindViewById<ImageView>(Resource.Id.propicview);
 
-            propicimage.SetImageBitmap(_bimage);
+            propicimage.SetImageResource(Resource.Drawable.user);
 
             ImageButton changepropic = FindViewById<ImageButton>(Resource.Id.btnChangePropic);
             EditText Firstname = FindViewById<EditText>(Resource.Id.txtFirstName);
@@ -49,24 +49,67 @@ namespace App1
             EditText Address = FindViewById<EditText>(Resource.Id.txtAddress);
             EditText Password = FindViewById<EditText>(Resource.Id.txtPass);
             EditText Re_Password = FindViewById<EditText>(Resource.Id.txtRePass);
-            Button Register = FindViewById<Button>(Resource.Id.UpdateButton);
-        }
-        public Bitmap GetImageBitmapFromUrl(string url)
-        {
-            Bitmap imageBitmap = null;
-            if (!(url == "null"))
-                using (var webClient = new WebClient())
-                {
-                    var imageBytes = webClient.DownloadData(url);
-                    if (imageBytes != null && imageBytes.Length > 0)
-                    {
-                        imageBitmap = BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
-                    }
-                }
+            Button BtnRegister = FindViewById<Button>(Resource.Id.btnRegister);
 
-            System.Console.Out.WriteLine("Return fn");
-            return imageBitmap;
+            BtnRegister.Click += delegate 
+            {
+                if (Mobilenumber.Text == "")
+                {
+                    AlertDialog.Builder aler = new AlertDialog.Builder(this);
+                    aler.SetTitle("Sorry");
+                    aler.SetMessage("Please enter your 10 digit mobile number");
+                    aler.SetNegativeButton("Ok", delegate { });
+                    Dialog dialog = aler.Create();
+                    dialog.Show();
+                    return;
+                }
+                else
+                {
+                    SendSmsgs(Mobilenumber.Text);
+                    var intent = new Intent(this, typeof(VerificationActivity));
+                    intent.PutExtra("otp", otp);
+                    intent.PutExtra("username", Mobilenumber.Text);
+                    StartActivity(intent);
+
+                }
+            };
+
+
+
+
+
         }
+        private void SendSmsgs(string userNumber)
+        {
+            otp = RandomString(4);
+            int otpcount = otp.Count();
+            SmsManager.Default.SendTextMessage(userNumber.ToString(), null, "Your Otp is:" + otp, null, null);
+            //otps.Add(otp);
+            //string httpreq="http://bhashsms.com/api/sendmsg.php?user=username&pass=********&sender=sendername&phone=" + userNumber + "&text=" + otp + "&priority=dnd&stype=unicode";
+        }
+        private System.Random random = new System.Random();
+        public string RandomString(int length)
+        {
+            const string chars = "0123456789";
+            return new string(Enumerable.Repeat(chars, length)
+              .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
+        //public Bitmap GetImageBitmapFromUrl(string url)
+        //{
+        //    Bitmap imageBitmap = null;
+        //    if (!(url == "null"))
+        //        using (var webClient = new WebClient())
+        //        {
+        //            var imageBytes = webClient.DownloadData(url);
+        //            if (imageBytes != null && imageBytes.Length > 0)
+        //            {
+        //                imageBitmap = BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
+        //            }
+        //        }
+
+        //    System.Console.Out.WriteLine("Return fn");
+        //    return imageBitmap;
+        //}
 
         //public Bitmap getRoundedShape(Bitmap scaleBitmapImage)
         //{

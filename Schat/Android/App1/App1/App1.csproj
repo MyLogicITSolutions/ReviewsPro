@@ -61,6 +61,7 @@
     <Compile Include="Activity\ProfilePicturePickDialog.cs" />
     <Compile Include="Activity\Registration.cs" />
     <Compile Include="Activity\StartActivity.cs" />
+    <Compile Include="Activity\VerificationActivity.cs" />
     <Compile Include="Adapter\ChatListAdapter.cs" />
     <Compile Include="Adapter\ContactsAdapter.cs" />
     <Compile Include="Classes\chatList.cs" />
@@ -83,6 +84,7 @@
     <AndroidResource Include="Resources\layout\StartLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\OtpReceiverLayout.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\ChatListLayout.axml">

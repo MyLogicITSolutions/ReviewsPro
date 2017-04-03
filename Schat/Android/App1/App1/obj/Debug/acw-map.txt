@@ -26,6 +26,10 @@ App1.StartActivity, App1;md5579855c995bdb073d8182511e793544c.StartActivity
 App1.StartActivity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.StartActivity
 App1.StartActivity;md5579855c995bdb073d8182511e793544c.StartActivity
 app1.StartActivity;md5579855c995bdb073d8182511e793544c.StartActivity
+App1.VerificationActivity, App1;md5579855c995bdb073d8182511e793544c.VerificationActivity
+App1.VerificationActivity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.VerificationActivity
+App1.VerificationActivity;md5579855c995bdb073d8182511e793544c.VerificationActivity
+app1.VerificationActivity;md5579855c995bdb073d8182511e793544c.VerificationActivity
 App1.ChatListAdapter, App1;md5579855c995bdb073d8182511e793544c.ChatListAdapter
 App1.ChatListAdapter, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.ChatListAdapter
 App1.ChatListAdapter;md5579855c995bdb073d8182511e793544c.ChatListAdapter
