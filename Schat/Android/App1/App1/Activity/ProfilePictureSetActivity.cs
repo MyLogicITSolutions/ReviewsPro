@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace App1
 {
-    [Activity(Label = "Choose profile image here",MainLauncher =true)]
+    [Activity(Label = "Choose profile image here",MainLauncher =false)]
     public class ProfilePictureSetActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

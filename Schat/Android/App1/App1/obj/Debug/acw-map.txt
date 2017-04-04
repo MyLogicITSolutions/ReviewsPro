@@ -14,6 +14,10 @@ App1.ChatListActivity, App1;md5579855c995bdb073d8182511e793544c.ChatListActivity
 App1.ChatListActivity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.ChatListActivity
 App1.ChatListActivity;md5579855c995bdb073d8182511e793544c.ChatListActivity
 app1.ChatListActivity;md5579855c995bdb073d8182511e793544c.ChatListActivity
+App1.profileActivity, App1;md5579855c995bdb073d8182511e793544c.profileActivity
+App1.profileActivity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.profileActivity
+App1.profileActivity;md5579855c995bdb073d8182511e793544c.profileActivity
+app1.profileActivity;md5579855c995bdb073d8182511e793544c.profileActivity
 App1.ProfilePictureGallery, App1;md5579855c995bdb073d8182511e793544c.ProfilePictureGallery
 App1.ProfilePictureGallery, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.ProfilePictureGallery
 App1.ProfilePictureGallery;md5579855c995bdb073d8182511e793544c.ProfilePictureGallery

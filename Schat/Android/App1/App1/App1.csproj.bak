@@ -15,7 +15,7 @@
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
   </PropertyGroup>
@@ -58,7 +58,6 @@
     <Compile Include="Activity\LoginActivity.cs" />
     <Compile Include="Activity\CurrentUser.cs" />
     <Compile Include="Activity\ChatListActivity.cs" />
-    <Compile Include="Activity\profileActivity.cs" />
     <Compile Include="Activity\ProfilePictureGallery.cs" />
     <Compile Include="Activity\ProfilePicturePickDialog.cs" />
     <Compile Include="Activity\ProfilePictureSetActivity.cs" />
@@ -92,9 +91,6 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ProfilePickLayout.axml" />
-    <AndroidResource Include="Resources\layout\ProfileImageLayout.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\ChatListLayout.axml">

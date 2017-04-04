@@ -68,6 +68,8 @@ C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\r
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\layout\registration.xml
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\layout\startlayout.xml
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\layout\otpreceiverlayout.xml
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\layout\profilepicturesetlayout.xml
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\layout\profilepicklayout.xml
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\layout\chatlistlayout.xml
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\values\strings.xml
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\drawable\icon.png
@@ -107,7 +109,6 @@ C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\a
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\layout\profilepicturesetlayout.xml
-C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\layout\profilepicklayout.xml
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\layout\profileimagelayout.xml
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\App1.dll.mdb
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\bin\Debug\App1.dll.mdb

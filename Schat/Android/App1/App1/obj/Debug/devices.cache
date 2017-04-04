@@ -4,16 +4,4 @@
     <ResultingAbi>armeabi-v7a</ResultingAbi>
     <SdkVersion>23</SdkVersion>
   </Device>
-  <Device id="emulator-5554">
-    <ResultingAbi>armeabi-v7a</ResultingAbi>
-    <SdkVersion>23</SdkVersion>
-  </Device>
-  <Device id="ZX1D63FPV4">
-    <ResultingAbi>armeabi-v7a</ResultingAbi>
-    <SdkVersion>23</SdkVersion>
-  </Device>
-  <Device id="EAGUYDG6WGZH9LS4">
-    <ResultingAbi></ResultingAbi>
-    <SdkVersion>22</SdkVersion>
-  </Device>
 </Devices>

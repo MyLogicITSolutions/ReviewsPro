@@ -68,7 +68,7 @@ namespace App1
                 switch (item.ItemId)
                 {
                     case Resource.Id.Profile:
-                        var intent = new Intent(this, typeof(Registration));
+                        var intent = new Intent(this, typeof(profileActivity));
                         intent.PutExtra("MyData", "Wall Store");
                         StartActivity(intent);
                         break;
