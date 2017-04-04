@@ -40,10 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\InsertMessages.cs" />
     <Compile Include="Models\Registration.cs" />
     <Compile Include="Models\RetriveMessages.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Responses\ConversationResponse.cs" />
+    <Compile Include="Responses\InsertResponse.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

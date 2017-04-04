@@ -20,15 +20,21 @@ namespace SChatServices.API.Controllers
         public ConversationResponse ConversationList(int objectId,int userid)
         {
             ConversationResponse resp = new ConversationResponse();
-            ISChatService itemService = new SChatService();
+            IService itemService = new Service();
             resp = itemService.GetConversationList(objectId,userid);
             return resp;
         }
         [HttpPost]
         public int GetUserList(Registration registration)
         {
-            IRegistrationService itemService = new RegistrationService();
+            IService itemService = new Service();
             return (itemService.GetUserList(registration));
+        }
+        [HttpPost]
+        public int GetInsertMessageList(int objectId, int userid,string message)
+        {
+            IService itemService = new Service();
+            return (itemService.GetInsertMessageList(objectId,userid,message));
         }
     }
 }

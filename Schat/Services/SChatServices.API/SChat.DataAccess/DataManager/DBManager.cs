@@ -9,16 +9,31 @@ using SChat.Models;
 
 namespace SChat.DataAccess
 {
-    public class RegistrationDBManager:IRegistrationDBManager
+   public  class DBManager : IDBManager
     {
-        public SChatDataContext DBContext;
-        public RegistrationDBManager()
-        {
-            string connection = System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
 
-            DBContext = new DataAccess.SChatDataContext(connection);
-        }
+            public SChatDataContext DBContext;
 
+            public DBManager()
+            {
+                string connection = System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+
+                DBContext = new DataAccess.SChatDataContext(connection);
+            }
+
+
+            public IList<MyMessagesResult> GetMessageList(int SenderID, int RecevierID)
+            {
+                try
+                {
+                    ISingleResult<MyMessagesResult> result = DBContext.MyMessages(SenderID, RecevierID);
+                    return result.ToList();
+                }
+                catch (Exception ex)
+                {
+                    return null;
+                }
+            }
         public int GetUserList(Registration registration)
         {
             try
@@ -41,10 +56,17 @@ namespace SChat.DataAccess
                 return 0;
             }
         }
-
-
-
+        public int GetInsertMessageList(int SenderID, int RecevierID, string message)
+        {
+            try
+            {
+                int result = DBContext.InsertMessage(SenderID, RecevierID, message);
+                return result;
+            }
+            catch (Exception ex)
+            {
+                return 0;
+            }
+        }
     }
-  
-
 }

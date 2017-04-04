@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SChat.Models;
-using SChat.DataAccess;
 
-namespace SChat.DataAccess
+namespace SChat.Models.Responses
 {
-   public interface IRegistrationDBManager
+    public class InsertResponse
     {
-        int GetUserList(Registration registration);
+        public IList<InsertMessages> InsertMessageList { get; set; }
     }
 }
