@@ -3,3 +3,8 @@ C:\Users\Savvy IT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\S
 C:\Users\Savvy IT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.csprojResolveAssemblyReference.cache
 C:\Users\Savvy IT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.dll
 C:\Users\Savvy IT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.pdb
+E:\sumanth\Services\SChatServices.API\SChat.Models\bin\Debug\SChat.Models.dll
+E:\sumanth\Services\SChatServices.API\SChat.Models\bin\Debug\SChat.Models.pdb
+E:\sumanth\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.csprojResolveAssemblyReference.cache
+E:\sumanth\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.dll
+E:\sumanth\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.pdb

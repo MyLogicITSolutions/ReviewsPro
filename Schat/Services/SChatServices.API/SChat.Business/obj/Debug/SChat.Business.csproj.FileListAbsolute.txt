@@ -7,3 +7,12 @@ C:\Users\Savvy IT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\S
 C:\Users\Savvy IT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Business\obj\Debug\SChat.Business.csprojResolveAssemblyReference.cache
 C:\Users\Savvy IT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Business\obj\Debug\SChat.Business.dll
 C:\Users\Savvy IT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Business\obj\Debug\SChat.Business.pdb
+E:\sumanth\Services\SChatServices.API\SChat.Business\bin\Debug\SChat.Business.dll
+E:\sumanth\Services\SChatServices.API\SChat.Business\bin\Debug\SChat.Business.pdb
+E:\sumanth\Services\SChatServices.API\SChat.Business\bin\Debug\SChat.DataAccess.dll
+E:\sumanth\Services\SChatServices.API\SChat.Business\bin\Debug\SChat.Models.dll
+E:\sumanth\Services\SChatServices.API\SChat.Business\bin\Debug\SChat.DataAccess.pdb
+E:\sumanth\Services\SChatServices.API\SChat.Business\bin\Debug\SChat.Models.pdb
+E:\sumanth\Services\SChatServices.API\SChat.Business\obj\Debug\SChat.Business.csprojResolveAssemblyReference.cache
+E:\sumanth\Services\SChatServices.API\SChat.Business\obj\Debug\SChat.Business.dll
+E:\sumanth\Services\SChatServices.API\SChat.Business\obj\Debug\SChat.Business.pdb
