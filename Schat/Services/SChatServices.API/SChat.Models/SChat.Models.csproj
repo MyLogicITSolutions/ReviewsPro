@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Registration.cs" />
     <Compile Include="Models\RetriveMessages.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Responses\ConversationResponse.cs" />

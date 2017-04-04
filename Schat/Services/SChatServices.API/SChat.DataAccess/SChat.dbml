@@ -24,8 +24,6 @@
     <Parameter Name="country" Type="System.String" DbType="VarChar(64)" />
     <Parameter Name="city" Type="System.String" DbType="VarChar(64)" />
     <Parameter Name="password" Type="System.String" DbType="VarChar(MAX)" />
-    <ElementType Name="RegisterUsersResult">
-      <Column Name="" Member="Column1" Type="System.Int32" DbType="Int" CanBeNull="true" />
-    </ElementType>
+    <Return Type="System.Int32" />
   </Function>
 </Database>

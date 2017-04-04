@@ -40,8 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IRegistrationService.cs" />
     <Compile Include="Interfaces\ISChatService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\RegistrationService.cs" />
     <Compile Include="Services\SChatService.cs" />
   </ItemGroup>
   <ItemGroup />

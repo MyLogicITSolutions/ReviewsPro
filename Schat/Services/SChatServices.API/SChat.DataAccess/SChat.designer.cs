@@ -77,10 +77,10 @@ namespace SChat.DataAccess
 		}
 		
 		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.RegisterUsers")]
-		public ISingleResult<RegisterUsersResult> RegisterUsers([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(256)")] string firstName, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(256)")] string lastName, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(MAX)")] string email, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(64)")] string mobile, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Gender", DbType="Char(64)")] string gender, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(MAX)")] string address, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="DateTime")] System.Nullable<System.DateTime> dob, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(64)")] string country, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(64)")] string city, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(MAX)")] string password)
+		public int RegisterUsers([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(256)")] string firstName, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(256)")] string lastName, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(MAX)")] string email, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(64)")] string mobile, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Gender", DbType="Char(64)")] string gender, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(MAX)")] string address, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="DateTime")] System.Nullable<System.DateTime> dob, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(64)")] string country, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(64)")] string city, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(MAX)")] string password)
 		{
 			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), firstName, lastName, email, mobile, gender, address, dob, country, city, password);
-			return ((ISingleResult<RegisterUsersResult>)(result.ReturnValue));
+			return ((int)(result.ReturnValue));
 		}
 	}
 	
@@ -105,32 +105,6 @@ namespace SChat.DataAccess
 				if ((this._message != value))
 				{
 					this._message = value;
-				}
-			}
-		}
-	}
-	
-	public partial class RegisterUsersResult
-	{
-		
-		private System.Nullable<int> _Column1;
-		
-		public RegisterUsersResult()
-		{
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="", Storage="_Column1", DbType="Int")]
-		public System.Nullable<int> Column1
-		{
-			get
-			{
-				return this._Column1;
-			}
-			set
-			{
-				if ((this._Column1 != value))
-				{
-					this._Column1 = value;
 				}
 			}
 		}

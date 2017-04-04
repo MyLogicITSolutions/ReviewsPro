@@ -5,6 +5,8 @@ using System.Web;
 using SChat.Models;
 using SChat.Business;
 using System.Web.Http;
+using System.Net.Http;
+
 
 
 namespace SChatServices.API.Controllers
@@ -21,6 +23,12 @@ namespace SChatServices.API.Controllers
             ISChatService itemService = new SChatService();
             resp = itemService.GetConversationList(objectId,userid);
             return resp;
+        }
+        [HttpPost]
+        public int GetUserList(Registration registration)
+        {
+            IRegistrationService itemService = new RegistrationService();
+            return (itemService.GetUserList(registration));
         }
     }
 }
