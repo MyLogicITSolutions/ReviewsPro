@@ -1,0 +1,5 @@
+C:\Users\Savvy IT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\bin\Debug\SChat.Models.dll
+C:\Users\Savvy IT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\bin\Debug\SChat.Models.pdb
+C:\Users\Savvy IT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.csprojResolveAssemblyReference.cache
+C:\Users\Savvy IT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.dll
+C:\Users\Savvy IT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.pdb
