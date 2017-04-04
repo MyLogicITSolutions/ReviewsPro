@@ -12,26 +12,36 @@ using Android.Widget;
 
 namespace App1
 {
-    [Activity(Label = "@string/ApplicationName", MainLauncher =true,Icon ="@drawable/conversation")]
+    [Activity(Label = "@string/ApplicationName", MainLauncher =false,Icon ="@drawable/conversation")]
     public class StartActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.StartLayout);
-            Button lgnBtn = FindViewById<Button>(Resource.Id.btnLogin);
-            lgnBtn.Click += delegate
-             {
-                 Intent intent = new Intent(this, typeof(LoginActivity));
-                 StartActivity(intent);
-             };
-
-            Button regBtn = FindViewById<Button>(Resource.Id.btnRegister);
-            regBtn.Click += delegate
+            if (CurrentUser.getUserId() != null)
             {
-                Intent intent = new Intent(this, typeof(Registration));
+                Intent intent = new Intent(this, typeof(ChatListActivity));
                 StartActivity(intent);
-            };
+                               
+            }
+            else
+            {
+                Button lgnBtn = FindViewById<Button>(Resource.Id.btnLogin);
+                lgnBtn.Click += delegate
+                {
+                    Intent intent = new Intent(this, typeof(LoginActivity));
+                    StartActivity(intent);
+                };
+
+                Button regBtn = FindViewById<Button>(Resource.Id.btnRegister);
+                regBtn.Click += delegate
+                {
+                    Intent intent = new Intent(this, typeof(Registration));
+                    StartActivity(intent);
+                };
+
+            }
 
             // Create your application here
         }

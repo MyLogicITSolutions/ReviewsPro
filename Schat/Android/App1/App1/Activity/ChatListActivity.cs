@@ -59,14 +59,44 @@ namespace App1
 
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
-            if (item.ItemId==Resource.Id.newChat)
+            try
             {
-                    StartActivity(typeof(PickContactActivity));                
+                if (item.ItemId == Resource.Id.newChat)
+                {
+                    StartActivity(typeof(PickContactActivity));
+                }
+                switch (item.ItemId)
+                {
+                    case Resource.Id.Profile:
+                        var intent = new Intent(this, typeof(Registration));
+                        intent.PutExtra("MyData", "Wall Store");
+                        StartActivity(intent);
+                        break;
+
+                    case Resource.Id.settings:
+                        var intent1 = new Intent(this, typeof(Registration));
+                        intent1.PutExtra("MyData", "Wall Store");
+                        StartActivity(intent1);
+                        break;
+
+                    //case Resource.Id.exit:
+                    //    Finish();
+                    //    return false;
+
+                }
+
+            }
+            catch(Exception exception)
+            {
+                string str = exception.Message;
             }
             return base.OnOptionsItemSelected(item);
+
         }
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
+
+
             MenuInflater.Inflate(Resource.Drawable.options_menu, menu);
             return true;
         }

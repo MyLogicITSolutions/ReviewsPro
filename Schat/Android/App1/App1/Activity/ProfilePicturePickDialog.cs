@@ -29,7 +29,7 @@ namespace App1
     public class ProfilePicturePickDialog : Activity
     {
 
-        private ImageView _imageView;
+        //private ImageView _imageView;
         public string path;
         protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
         {
@@ -61,32 +61,33 @@ namespace App1
         
             GC.Collect();
         }
-
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             Window.RequestFeature(WindowFeatures.NoTitle);
-           // SetContentView(Resource.Layout.pic);
+           SetContentView(Resource.Layout.ProfilePickLayout);
 
-            if (IsThereAnAppToTakePictures())
+            //if (IsThereAnAppToTakePictures())
+            //{
+            //    CreateDirectoryForPictures();
+            //    ImageButton BtnCamera = FindViewById<ImageButton>(Resource.Id.btnCamera);
+            //    BtnCamera.Click += TakeAPicture;
+
+
+            //    // _imageView = FindViewById<ImageView>(Resource.Id.imageView1);
+            //    // BtnCamera.Click += TakeAPicture;
+            //}
+            ImageButton btnGallery = FindViewById<ImageButton>(Resource.Id.imgbtnGallery);
+
+            btnGallery.Click += delegate
             {
-                CreateDirectoryForPictures();
-//  ImageButton BtnCamera = FindViewById<ImageButton>(Resource.Id.);
-
-
-                // _imageView = FindViewById<ImageView>(Resource.Id.imageView1);
-             // BtnCamera.Click += TakeAPicture;
-            }
-    
-
-
+                Intent intent = new Intent(this, typeof(ProfilePictureGallery));
+                StartActivity(intent);
+            };
         }
-
-
-
         public string CreateDirectoryForPictures()
         {
-            App._dir = new Java.IO.File(Environment.GetExternalStoragePublicDirectory(Environment.DirectoryPictures), "winehangouts/wineimages");
+            App._dir = new Java.IO.File(Environment.GetExternalStoragePublicDirectory(Environment.DirectoryPictures), "Schat/ProfilePictures");
 
             if (!App._dir.Exists())
             {
@@ -120,13 +121,7 @@ namespace App1
             StartActivityForResult(intent, 0);
         }
 
-       
-                //}
-                // await container=
-
-
-
-            }
-        }
+    }
+}
 
 

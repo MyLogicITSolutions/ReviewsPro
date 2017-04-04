@@ -58,7 +58,9 @@
     <Compile Include="Activity\LoginActivity.cs" />
     <Compile Include="Activity\CurrentUser.cs" />
     <Compile Include="Activity\ChatListActivity.cs" />
+    <Compile Include="Activity\ProfilePictureGallery.cs" />
     <Compile Include="Activity\ProfilePicturePickDialog.cs" />
+    <Compile Include="Activity\ProfilePictureSetActivity.cs" />
     <Compile Include="Activity\Registration.cs" />
     <Compile Include="Activity\StartActivity.cs" />
     <Compile Include="Activity\VerificationActivity.cs" />
@@ -85,6 +87,10 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\OtpReceiverLayout.axml" />
+    <AndroidResource Include="Resources\layout\ProfilePictureSetLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ProfilePickLayout.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\ChatListLayout.axml">

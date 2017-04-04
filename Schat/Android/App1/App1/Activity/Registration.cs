@@ -37,13 +37,13 @@ namespace App1
 
             //Bitmap _bfinal = getRoundedShape(_bimage);
 
-            ImageView propicimage = FindViewById<ImageView>(Resource.Id.propicview);
+            //ImageView propicimage = FindViewById<ImageView>(Resource.Id.propicview);
 
-            propicimage.SetImageResource(Resource.Drawable.user);
+            //propicimage.SetImageResource(Resource.Drawable.user);
 
-            ImageButton changepropic = FindViewById<ImageButton>(Resource.Id.btnChangePropic);
-            EditText Firstname = FindViewById<EditText>(Resource.Id.txtFirstName);
-            EditText Lastname = FindViewById<EditText>(Resource.Id.txtLastName);
+            //ImageButton BtnUploadPropic = FindViewById<ImageButton>(Resource.Id.btnUploadPropic);
+            EditText UserName = FindViewById<EditText>(Resource.Id.txtFullName);
+            //EditText Lastname = FindViewById<EditText>(Resource.Id.txtLastName);
             EditText Mobilenumber = FindViewById<EditText>(Resource.Id.txtMobileNumber);
             EditText Email = FindViewById<EditText>(Resource.Id.txtEmail);
             EditText Address = FindViewById<EditText>(Resource.Id.txtAddress);
@@ -74,10 +74,10 @@ namespace App1
                 }
             };
 
-
-
-
-
+            //BtnUploadPropic.Click += delegate
+            //{
+                    
+            //};
         }
         private void SendSmsgs(string userNumber)
         {

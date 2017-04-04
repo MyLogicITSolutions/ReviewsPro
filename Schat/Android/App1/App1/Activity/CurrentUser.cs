@@ -24,22 +24,28 @@ namespace App1
 
         }
 
-        public static void SaveUserName(string UserName, string UserId)
-        {
+        //public static void SaveUserName(string UserName, string UserId)
+        //{
 
-            _edit.PutString("UserName", UserName);
+        //    _edit.PutString("UserName", UserName);
+        //    _edit.PutString("UserId", UserId);
+        //    _edit.Apply();
+        //}
+        public static void SaveUserId(string UserId)
+        {
             _edit.PutString("UserId", UserId);
             _edit.Apply();
         }
 
-        public static string getUserName()
-        {
+
+        //public static string getUserName()
+        //{
 
 
-            string value1 = _pref.GetString("UserName", null);
-            return value1;
+        //    string value1 = _pref.GetString("UserName", null);
+        //    return value1;
 
-        }
+        //}
         public static string getUserId()
         {
 

@@ -1,24 +1,24 @@
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\App1.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\Java.Interop.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\Microsoft.CSharp.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\Mono.Android.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\mscorlib.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Core.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Xml.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Xml.Linq.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Threading.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Runtime.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.ComponentModel.Composition.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Collections.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Collections.Concurrent.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Reflection.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Linq.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Runtime.Extensions.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Reflection.Extensions.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\Mono.CSharp.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Net.Http.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.Runtime.Serialization.dll
-E:\My Folder\Personal Projects\App1\App1\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\App1.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\Java.Interop.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\Microsoft.CSharp.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\Mono.Android.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\mscorlib.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Core.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Xml.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Xml.Linq.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Threading.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Runtime.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Collections.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Collections.Concurrent.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Reflection.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Linq.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Runtime.InteropServices.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Runtime.Extensions.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Reflection.Extensions.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\Mono.CSharp.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Net.Http.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Runtime.Serialization.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.ServiceModel.Internals.dll

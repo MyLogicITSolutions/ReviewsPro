@@ -34,7 +34,7 @@ namespace App1
                     Dialog dialog = alert.Create();
                     dialog.Show();
 
-                    var intent = new Intent(this, typeof(ChatListActivity));
+                    var intent = new Intent(this, typeof(ProfilePictureSetActivity));
                     StartActivity(intent);
                 }
                 else

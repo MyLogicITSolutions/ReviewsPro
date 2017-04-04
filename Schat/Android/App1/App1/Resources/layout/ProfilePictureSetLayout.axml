@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Set Your profile image here"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <ImageButton
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/btnuploadpropic"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:scaleType="fitCenter" />
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpload"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp" />
+</LinearLayout>

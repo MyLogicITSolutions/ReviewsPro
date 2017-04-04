@@ -43,16 +43,16 @@ namespace App1
             //TaskA.Start();
 
 
-            if (CurrentUser.getUserId() == null)
-            {
-                // Do nothing
-            }
-            else
-            {
-                Intent intent = new Intent(this, typeof(ChatListActivity));
-                StartActivity(intent);
+            //if (CurrentUser.getUserId() == null)
+            //{
+            //    // Do nothing
+            //}
+            //else
+            //{
+            //    Intent intent = new Intent(this, typeof(ChatListActivity));
+            //    StartActivity(intent);
 
-            }
+            //}
 
 
 
@@ -64,27 +64,26 @@ namespace App1
                 //
                 if (userid.Text == "")
                 {
-                    Intent intent = new Intent(this, typeof(ChatListActivity));
-                    StartActivity(intent);
-
-                    //AlertDialog.Builder aler = new AlertDialog.Builder(this);
-                    //aler.SetTitle("Sorry");
-                    //aler.SetMessage("Please enter mobile number to login");
-                    //aler.SetNegativeButton("Ok", delegate { });
-                    //Dialog dialog = aler.Create();
-                    //dialog.Show();
-                    //return;
+                    AlertDialog.Builder aler = new AlertDialog.Builder(this);
+                    aler.SetTitle("Sorry");
+                    aler.SetMessage("Please enter mobile number to login");
+                    aler.SetNegativeButton("Ok", delegate { });
+                    Dialog dialog = aler.Create();
+                    dialog.Show();
+                    return;
 
                 }
                 //ForTesting
-                else if (userid.Text == "7207589007")
-                {
-                    Intent intent = new Intent(this, typeof(ChatListActivity));
-                    StartActivity(intent);
-                }
+                //else if (userid.Text == "7207589007")
+                //{
+                //    Intent intent = new Intent(this, typeof(ChatListActivity));
+                //    StartActivity(intent);
+                //}
                 else
                 {
-                    //do nothing
+                    CurrentUser.SaveUserId(userid.Text);
+                    Intent intent = new Intent(this, typeof(ChatListActivity));
+                    StartActivity(intent);
                 }
                 //CustomerResponse authen = new CustomerResponse();
                 //try
