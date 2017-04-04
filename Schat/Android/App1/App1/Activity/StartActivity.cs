@@ -12,12 +12,13 @@ using Android.Widget;
 
 namespace App1
 {
-    [Activity(Label = "@string/ApplicationName", MainLauncher =false,Icon ="@drawable/conversation")]
+    [Activity(Label = "@string/ApplicationName", MainLauncher =true,Icon ="@drawable/conversation")]
     public class StartActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            Window.RequestFeature(WindowFeatures.NoTitle);
             SetContentView(Resource.Layout.StartLayout);
             if (CurrentUser.getUserId() != null)
             {
