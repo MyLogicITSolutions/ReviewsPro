@@ -1,3 +1,7 @@
+
+create database SCHAT
+
+
 CREATE TABLE [dbo].[Messages](
 	[message_db_key] [int] IDENTITY(1,1) NOT NULL,
 	[message] [varchar](max) NULL,
@@ -43,14 +47,18 @@ UNIQUE NONCLUSTERED
 	[mobile] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+
 ---------------------------------------------------------------------------------------
-CREATE PROCEDURE [dbo].[GetUserID] 
+
+CREATE PROCEDURE [dbo].[GetUserDetails] 
 (
+
 	@MobileNum varchar(256)
 )
 AS  
 BEGIN  
-   SELECT user_id  from [dbo].[UsersProfileDetails] where mobile= @MobileNum 
+   SELECT * from [dbo].[UsersProfileDetails] where mobile= @MobileNum 
    END
 -----------------------------------------------------------------------------------
 CREATE PROCEDURE [dbo].[InsertMessage] 
@@ -75,7 +83,7 @@ DECLARE	@return_value int
 EXEC	@return_value = [dbo].[InsertMessage]
 		@sender_id = 1,
 		@receiver_id = 2,
-		@message = N'hello'
+		@message = N'hi'
 
 SELECT	'Return Value' = @return_value
 
@@ -128,10 +136,10 @@ GO
 DECLARE	@return_value int
 
 EXEC	@return_value = [dbo].[RegisterUsers]
-		@firstName = N'soumik',
+		@firstName = N'sumanth',
 		@lastName = N'paul',
 		@email = N'sou@gnk.com',
-		@mobile = N' 8978805050',
+		@mobile = N' 8019808172',
 		@Gender = N'M',
 		@address = N'vnvefov',
 		@dob = N'2017-04-05 17:26:08.023',
@@ -143,3 +151,5 @@ SELECT	'Return Value' = @return_value
 
 GO
 
+
+select * from UsersProfileDetails

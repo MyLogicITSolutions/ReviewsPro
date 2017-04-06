@@ -13,5 +13,6 @@ namespace SChat.Business
         int GetInsertMessageList(int SenderID, int RecevierID, string message);
         int GetUserList(Registration registration);
         ConversationResponse GetConversationList(int SenderID, int ReciverID);
+        UserDetailsResponse GetUserDetailsList(string MobileNum);
     }
 }

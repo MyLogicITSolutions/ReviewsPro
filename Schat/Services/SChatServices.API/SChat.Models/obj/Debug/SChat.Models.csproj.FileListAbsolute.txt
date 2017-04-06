@@ -8,3 +8,8 @@ E:\sumanth\Services\SChatServices.API\SChat.Models\bin\Debug\SChat.Models.pdb
 E:\sumanth\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.csprojResolveAssemblyReference.cache
 E:\sumanth\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.dll
 E:\sumanth\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.pdb
+G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\bin\Debug\SChat.Models.dll
+G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\bin\Debug\SChat.Models.pdb
+G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.csprojResolveAssemblyReference.cache
+G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.dll
+G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.pdb

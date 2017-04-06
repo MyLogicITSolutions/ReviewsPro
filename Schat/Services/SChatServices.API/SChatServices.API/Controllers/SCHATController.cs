@@ -36,5 +36,19 @@ namespace SChatServices.API.Controllers
             IService itemService = new Service();
             return (itemService.GetInsertMessageList(objectId,userid,message));
         }
+
+
+
+        [HttpGet]
+        public UserDetailsResponse userdetailsList(string id)
+        {
+            UserDetailsResponse resp = new UserDetailsResponse();
+            IService itemService = new Service();
+            resp = itemService.GetUserDetailsList(id);
+            return resp;
+        }
+
+
+
     }
 }

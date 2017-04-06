@@ -56,6 +56,7 @@ namespace SChat.DataAccess
                 return 0;
             }
         }
+
         public int GetInsertMessageList(int SenderID, int RecevierID, string message)
         {
             try
@@ -66,6 +67,20 @@ namespace SChat.DataAccess
             catch (Exception ex)
             {
                 return 0;
+            }
+        }
+
+
+        public IList<GetUserDetailsResult> GetUserDetails(string mobileNum)
+        {
+            try
+            {
+                ISingleResult<GetUserDetailsResult> result = DBContext.GetUserDetails(mobileNum);
+                return result.ToList();
+            }
+            catch (Exception ex)
+            {
+                return null;
             }
         }
     }

@@ -14,3 +14,11 @@ E:\sumanth\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.Models.pd
 E:\sumanth\Services\SChatServices.API\SChat.DataAccess\obj\Debug\SChat.DataAccess.csprojResolveAssemblyReference.cache
 E:\sumanth\Services\SChatServices.API\SChat.DataAccess\obj\Debug\SChat.DataAccess.dll
 E:\sumanth\Services\SChatServices.API\SChat.DataAccess\obj\Debug\SChat.DataAccess.pdb
+G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\obj\Debug\SChat.DataAccess.csprojResolveAssemblyReference.cache
+G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\obj\Debug\SChat.DataAccess.dll
+G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\obj\Debug\SChat.DataAccess.pdb
+G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.DataAccess.dll.config
+G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.DataAccess.dll
+G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.DataAccess.pdb
+G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.Models.dll
+G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.Models.pdb

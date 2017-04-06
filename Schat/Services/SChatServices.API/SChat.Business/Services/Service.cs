@@ -40,5 +40,36 @@ namespace SChat.Business
             itemListResponse.ConversationList = itemList;
             return itemListResponse;
         }
+
+        public UserDetailsResponse GetUserDetailsList(string MobileNum)
+        {
+            UserDetailsResponse itemListResponse = new UserDetailsResponse();
+            List<UserDetails> itemList = new List<UserDetails>();
+
+            IDBManager itemDBManager = new DBManager();
+
+            IList<GetUserDetailsResult> UserResults = itemDBManager.GetUserDetails(MobileNum).ToList();
+            foreach (GetUserDetailsResult result in UserResults)
+            {
+                itemList.Add(new UserDetails
+                {
+                    user_id = result.user_id,
+                    firstName = result.FirstName,
+                    lastName = result.LastName,
+                    email = result.email,
+                    gender = result.Gender,
+                    address = result.Address,
+                    dob =Convert.ToDateTime( result.dob),
+                    country = result.country,
+                    city = result.city,
+                    password = result.password
+
+    });
+            }
+            itemListResponse.UserDetailsList = itemList;
+            return itemListResponse;
+        }
+
+
     }
 }

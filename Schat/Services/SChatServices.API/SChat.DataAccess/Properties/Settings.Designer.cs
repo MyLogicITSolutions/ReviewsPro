@@ -32,5 +32,16 @@ namespace SChat.DataAccess.Properties {
                 return ((string)(this["chattingConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-DDIP9VH\\SQLEXPRESS;Initial Catalog=SCHAT;Integrated Security=" +
+            "True")]
+        public string SCHATConnectionString {
+            get {
+                return ((string)(this["SCHATConnectionString"]));
+            }
+        }
     }
 }
