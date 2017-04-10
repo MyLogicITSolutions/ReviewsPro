@@ -43,5 +43,16 @@ namespace SChat.DataAccess.Properties {
                 return ((string)(this["SCHATConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=67.225.171.204;Initial Catalog=mylogwin6_Test;User ID=lokesh;Password" +
+            "=Lokesh@9007")]
+        public string mylogwin6_TestConnectionString {
+            get {
+                return ((string)(this["mylogwin6_TestConnectionString"]));
+            }
+        }
     }
 }

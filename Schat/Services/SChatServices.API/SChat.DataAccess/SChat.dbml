@@ -1,19 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SCHAT" Class="SChatDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-DDIP9VH\SQLEXPRESS;Initial Catalog=SCHAT;Integrated Security=True" SettingsObjectName="SChat.DataAccess.Properties.Settings" SettingsPropertyName="SCHATConnectionString" Provider="System.Data.SqlClient" />
-  <Function Name="dbo.InsertMessage" Method="InsertMessage">
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="mylogwin6_Test" Class="SChatDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=67.225.171.204;Initial Catalog=mylogwin6_Test;User ID=lokesh" SettingsObjectName="SChat.DataAccess.Properties.Settings" SettingsPropertyName="mylogwin6_TestConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="lokesh.InsertMessage" Method="InsertMessage">
     <Parameter Name="sender_id" Type="System.Int32" DbType="Int" />
     <Parameter Name="receiver_id" Type="System.Int32" DbType="Int" />
     <Parameter Name="message" Type="System.String" DbType="VarChar(MAX)" />
     <Return Type="System.Int32" />
   </Function>
-  <Function Name="dbo.MyMessages" Method="MyMessages">
+  <Function Name="lokesh.MyMessages" Method="MyMessages">
     <Parameter Name="sender_id" Type="System.Int32" DbType="Int" />
     <Parameter Name="receiver_id" Type="System.Int32" DbType="Int" />
     <ElementType Name="MyMessagesResult">
       <Column Name="message" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
     </ElementType>
   </Function>
-  <Function Name="dbo.RegisterUsers" Method="RegisterUsers">
+  <Function Name="lokesh.RegisterUsers" Method="RegisterUsers">
     <Parameter Name="firstName" Type="System.String" DbType="VarChar(256)" />
     <Parameter Name="lastName" Type="System.String" DbType="VarChar(256)" />
     <Parameter Name="email" Type="System.String" DbType="VarChar(MAX)" />
@@ -26,15 +26,15 @@
     <Parameter Name="password" Type="System.String" DbType="VarChar(MAX)" />
     <Return Type="System.Int32" />
   </Function>
-  <Function Name="dbo.GetUserDetails" Method="GetUserDetails">
+  <Function Name="lokesh.GetUserDetails" Method="GetUserDetails">
     <Parameter Name="MobileNum" Parameter="mobileNum" Type="System.String" DbType="VarChar(256)" />
     <ElementType Name="GetUserDetailsResult">
       <Column Name="user_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Column Name="FirstName" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
-      <Column Name="LastName" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="firstName" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="lastName" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
       <Column Name="email" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
       <Column Name="Gender" Type="System.String" DbType="Char(64) NOT NULL" CanBeNull="false" />
-      <Column Name="Address" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="address" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
       <Column Name="dob" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
       <Column Name="country" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
       <Column Name="city" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />

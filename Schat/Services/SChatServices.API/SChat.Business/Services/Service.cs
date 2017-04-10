@@ -54,11 +54,11 @@ namespace SChat.Business
                 itemList.Add(new UserDetails
                 {
                     user_id = result.user_id,
-                    firstName = result.FirstName,
-                    lastName = result.LastName,
+                    firstName = result.firstName,
+                    lastName = result.lastName,
                     email = result.email,
                     gender = result.Gender,
-                    address = result.Address,
+                    address = result.address,
                     dob =Convert.ToDateTime( result.dob),
                     country = result.country,
                     city = result.city,

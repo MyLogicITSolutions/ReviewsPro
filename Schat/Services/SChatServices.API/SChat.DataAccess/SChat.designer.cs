@@ -22,7 +22,7 @@ namespace SChat.DataAccess
 	using System;
 	
 	
-	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="SCHAT")]
+	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="mylogwin6_Test")]
 	public partial class SChatDataContext : System.Data.Linq.DataContext
 	{
 		
@@ -33,7 +33,7 @@ namespace SChat.DataAccess
     #endregion
 		
 		public SChatDataContext() : 
-				base(global::SChat.DataAccess.Properties.Settings.Default.SCHATConnectionString, mappingSource)
+				base(global::SChat.DataAccess.Properties.Settings.Default.mylogwin6_TestConnectionString, mappingSource)
 		{
 			OnCreated();
 		}
@@ -62,28 +62,28 @@ namespace SChat.DataAccess
 			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.InsertMessage")]
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="lokesh.InsertMessage")]
 		public int InsertMessage([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> sender_id, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> receiver_id, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(MAX)")] string message)
 		{
 			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), sender_id, receiver_id, message);
 			return ((int)(result.ReturnValue));
 		}
 		
-		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.MyMessages")]
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="lokesh.MyMessages")]
 		public ISingleResult<MyMessagesResult> MyMessages([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> sender_id, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> receiver_id)
 		{
 			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), sender_id, receiver_id);
 			return ((ISingleResult<MyMessagesResult>)(result.ReturnValue));
 		}
 		
-		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.RegisterUsers")]
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="lokesh.RegisterUsers")]
 		public int RegisterUsers([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(256)")] string firstName, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(256)")] string lastName, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(MAX)")] string email, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(64)")] string mobile, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Gender", DbType="Char(64)")] string gender, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(MAX)")] string address, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="DateTime")] System.Nullable<System.DateTime> dob, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(64)")] string country, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(64)")] string city, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(MAX)")] string password)
 		{
 			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), firstName, lastName, email, mobile, gender, address, dob, country, city, password);
 			return ((int)(result.ReturnValue));
 		}
 		
-		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.GetUserDetails")]
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="lokesh.GetUserDetails")]
 		public ISingleResult<GetUserDetailsResult> GetUserDetails([global::System.Data.Linq.Mapping.ParameterAttribute(Name="MobileNum", DbType="VarChar(256)")] string mobileNum)
 		{
 			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), mobileNum);
@@ -122,15 +122,15 @@ namespace SChat.DataAccess
 		
 		private int _user_id;
 		
-		private string _FirstName;
+		private string _firstName;
 		
-		private string _LastName;
+		private string _lastName;
 		
 		private string _email;
 		
 		private string _Gender;
 		
-		private string _Address;
+		private string _address;
 		
 		private System.Nullable<System.DateTime> _dob;
 		
@@ -160,34 +160,34 @@ namespace SChat.DataAccess
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FirstName", DbType="VarChar(256) NOT NULL", CanBeNull=false)]
-		public string FirstName
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_firstName", DbType="VarChar(256) NOT NULL", CanBeNull=false)]
+		public string firstName
 		{
 			get
 			{
-				return this._FirstName;
+				return this._firstName;
 			}
 			set
 			{
-				if ((this._FirstName != value))
+				if ((this._firstName != value))
 				{
-					this._FirstName = value;
+					this._firstName = value;
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LastName", DbType="VarChar(256) NOT NULL", CanBeNull=false)]
-		public string LastName
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_lastName", DbType="VarChar(256) NOT NULL", CanBeNull=false)]
+		public string lastName
 		{
 			get
 			{
-				return this._LastName;
+				return this._lastName;
 			}
 			set
 			{
-				if ((this._LastName != value))
+				if ((this._lastName != value))
 				{
-					this._LastName = value;
+					this._lastName = value;
 				}
 			}
 		}
@@ -224,18 +224,18 @@ namespace SChat.DataAccess
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Address", DbType="VarChar(MAX)")]
-		public string Address
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_address", DbType="VarChar(MAX)")]
+		public string address
 		{
 			get
 			{
-				return this._Address;
+				return this._address;
 			}
 			set
 			{
-				if ((this._Address != value))
+				if ((this._address != value))
 				{
-					this._Address = value;
+					this._address = value;
 				}
 			}
 		}

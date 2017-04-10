@@ -16,7 +16,7 @@ namespace SChat.DataAccess
 
             public DBManager()
             {
-                string connection = System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+                string connection = System.Configuration.ConfigurationManager.ConnectionStrings["CloudCon"].ConnectionString;
 
                 DBContext = new DataAccess.SChatDataContext(connection);
             }
