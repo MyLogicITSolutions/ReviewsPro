@@ -15,7 +15,7 @@
     <activity android:label="@string/ApplicationName" android:theme="@android:style/Theme.Dialog" android:name="md5579855c995bdb073d8182511e793544c.ProfilePictureGallery" />
     <activity android:label="@string/ApplicationName" android:theme="@android:style/Theme.Dialog" android:name="md5579855c995bdb073d8182511e793544c.ProfilePicturePickDialog" />
     <activity android:label="Choose profile image here" android:name="md5579855c995bdb073d8182511e793544c.ProfilePictureSetActivity" />
-    <activity android:label="Register here" android:name="md5579855c995bdb073d8182511e793544c.Registration" />
+    <activity android:icon="@drawable/conversation" android:label="Register here" android:name="md5579855c995bdb073d8182511e793544c.RegistrationActivity" />
     <activity android:icon="@drawable/conversation" android:label="@string/ApplicationName" android:name="md5579855c995bdb073d8182511e793544c.StartActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

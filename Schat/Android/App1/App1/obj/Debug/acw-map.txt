@@ -30,10 +30,10 @@ App1.ProfilePictureSetActivity, App1;md5579855c995bdb073d8182511e793544c.Profile
 App1.ProfilePictureSetActivity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.ProfilePictureSetActivity
 App1.ProfilePictureSetActivity;md5579855c995bdb073d8182511e793544c.ProfilePictureSetActivity
 app1.ProfilePictureSetActivity;md5579855c995bdb073d8182511e793544c.ProfilePictureSetActivity
-App1.Registration, App1;md5579855c995bdb073d8182511e793544c.Registration
-App1.Registration, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.Registration
-App1.Registration;md5579855c995bdb073d8182511e793544c.Registration
-app1.Registration;md5579855c995bdb073d8182511e793544c.Registration
+App1.RegistrationActivity, App1;md5579855c995bdb073d8182511e793544c.RegistrationActivity
+App1.RegistrationActivity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.RegistrationActivity
+App1.RegistrationActivity;md5579855c995bdb073d8182511e793544c.RegistrationActivity
+app1.RegistrationActivity;md5579855c995bdb073d8182511e793544c.RegistrationActivity
 App1.StartActivity, App1;md5579855c995bdb073d8182511e793544c.StartActivity
 App1.StartActivity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.StartActivity
 App1.StartActivity;md5579855c995bdb073d8182511e793544c.StartActivity

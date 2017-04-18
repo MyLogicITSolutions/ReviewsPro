@@ -20,6 +20,7 @@ namespace App1
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.ProfileImageLayout);
             ImageView ProPic = FindViewById<ImageView>(Resource.Id.propicview);
+            ProPic.SetImageResource(Resource.Drawable.user1);
             ImageButton ChangePropic = FindViewById<ImageButton>(Resource.Id.btnChangePropic);
             ChangePropic.Click += delegate
             {

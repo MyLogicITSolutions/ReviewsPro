@@ -62,6 +62,9 @@ namespace App1
 			// aapt resource value: 0x7f020005
 			public const int user = 2130837509;
 			
+			// aapt resource value: 0x7f020006
+			public const int user1 = 2130837510;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -87,32 +90,29 @@ namespace App1
 			// aapt resource value: 0x7f050008
 			public const int ContactsListView = 2131034120;
 			
-			// aapt resource value: 0x7f050031
-			public const int Profile = 2131034161;
+			// aapt resource value: 0x7f050030
+			public const int Profile = 2131034160;
 			
-			// aapt resource value: 0x7f05001d
-			public const int btnChangePropic = 2131034141;
+			// aapt resource value: 0x7f05001e
+			public const int btnChangePropic = 2131034142;
+			
+			// aapt resource value: 0x7f050019
+			public const int btnLoginLL = 2131034137;
 			
 			// aapt resource value: 0x7f05002f
-			public const int btnLogin = 2131034159;
-			
-			// aapt resource value: 0x7f050018
-			public const int btnLoginLL = 2131034136;
-			
-			// aapt resource value: 0x7f05002e
-			public const int btnRegister = 2131034158;
+			public const int btnRegister = 2131034159;
 			
 			// aapt resource value: 0x7f050013
 			public const int btnSend = 2131034131;
 			
+			// aapt resource value: 0x7f050023
+			public const int btnUpload = 2131034147;
+			
+			// aapt resource value: 0x7f05001c
+			public const int btnVerify = 2131034140;
+			
 			// aapt resource value: 0x7f050022
-			public const int btnUpload = 2131034146;
-			
-			// aapt resource value: 0x7f05001b
-			public const int btnVerify = 2131034139;
-			
-			// aapt resource value: 0x7f050021
-			public const int btnuploadpropic = 2131034145;
+			public const int btnuploadpropic = 2131034146;
 			
 			// aapt resource value: 0x7f050004
 			public const int chatList = 2131034116;
@@ -123,20 +123,20 @@ namespace App1
 			// aapt resource value: 0x7f050001
 			public const int imgBtnProfile = 2131034113;
 			
-			// aapt resource value: 0x7f050020
-			public const int imgbtnGallery = 2131034144;
+			// aapt resource value: 0x7f050021
+			public const int imgbtnGallery = 2131034145;
 			
 			// aapt resource value: 0x7f050012
 			public const int lblPassword = 2131034130;
 			
-			// aapt resource value: 0x7f050016
-			public const int linearLayoutBtns = 2131034134;
+			// aapt resource value: 0x7f050017
+			public const int linearLayoutBtns = 2131034135;
 			
-			// aapt resource value: 0x7f050033
-			public const int newChat = 2131034163;
+			// aapt resource value: 0x7f050032
+			public const int newChat = 2131034162;
 			
-			// aapt resource value: 0x7f05001c
-			public const int propicview = 2131034140;
+			// aapt resource value: 0x7f05001d
+			public const int propicview = 2131034141;
 			
 			// aapt resource value: 0x7f050000
 			public const int relativeLayout1 = 2131034112;
@@ -144,8 +144,8 @@ namespace App1
 			// aapt resource value: 0x7f05000e
 			public const int relativeLayout2 = 2131034126;
 			
-			// aapt resource value: 0x7f050032
-			public const int settings = 2131034162;
+			// aapt resource value: 0x7f050031
+			public const int settings = 2131034161;
 			
 			// aapt resource value: 0x7f050009
 			public const int tableLayout1 = 2131034121;
@@ -162,38 +162,35 @@ namespace App1
 			// aapt resource value: 0x7f050010
 			public const int tableRow3 = 2131034128;
 			
-			// aapt resource value: 0x7f050023
-			public const int tableRow4 = 2131034147;
-			
-			// aapt resource value: 0x7f050019
-			public const int textView1 = 2131034137;
-			
 			// aapt resource value: 0x7f050024
-			public const int textView14 = 2131034148;
+			public const int tableRow4 = 2131034148;
+			
+			// aapt resource value: 0x7f05001a
+			public const int textView1 = 2131034138;
 			
 			// aapt resource value: 0x7f050025
-			public const int textView15 = 2131034149;
+			public const int textView14 = 2131034149;
 			
-			// aapt resource value: 0x7f05002a
-			public const int textView16 = 2131034154;
+			// aapt resource value: 0x7f050026
+			public const int textView15 = 2131034150;
+			
+			// aapt resource value: 0x7f050028
+			public const int textView16 = 2131034152;
+			
+			// aapt resource value: 0x7f05002b
+			public const int textView17 = 2131034155;
 			
 			// aapt resource value: 0x7f05002c
-			public const int textView17 = 2131034156;
-			
-			// aapt resource value: 0x7f050030
-			public const int textView2 = 2131034160;
-			
-			// aapt resource value: 0x7f05002d
-			public const int txtAddress = 2131034157;
+			public const int txtAddress = 2131034156;
 			
 			// aapt resource value: 0x7f050002
 			public const int txtContactName = 2131034114;
 			
-			// aapt resource value: 0x7f050027
-			public const int txtEmail = 2131034151;
+			// aapt resource value: 0x7f05002a
+			public const int txtEmail = 2131034154;
 			
-			// aapt resource value: 0x7f050026
-			public const int txtFullName = 2131034150;
+			// aapt resource value: 0x7f050027
+			public const int txtFullName = 2131034151;
 			
 			// aapt resource value: 0x7f050003
 			public const int txtLastMessage = 2131034115;
@@ -201,26 +198,26 @@ namespace App1
 			// aapt resource value: 0x7f05000b
 			public const int txtLeft = 2131034123;
 			
-			// aapt resource value: 0x7f05002b
-			public const int txtMobileNumber = 2131034155;
-			
-			// aapt resource value: 0x7f05001f
-			public const int txtNumber = 2131034143;
-			
-			// aapt resource value: 0x7f05001a
-			public const int txtOtp = 2131034138;
-			
-			// aapt resource value: 0x7f050028
-			public const int txtPass = 2131034152;
-			
-			// aapt resource value: 0x7f050017
-			public const int txtPassword = 2131034135;
-			
-			// aapt resource value: 0x7f050011
-			public const int txtPhoneNumber = 2131034129;
-			
 			// aapt resource value: 0x7f050029
-			public const int txtRePass = 2131034153;
+			public const int txtMobileNumber = 2131034153;
+			
+			// aapt resource value: 0x7f050020
+			public const int txtNumber = 2131034144;
+			
+			// aapt resource value: 0x7f05001b
+			public const int txtOtp = 2131034139;
+			
+			// aapt resource value: 0x7f05002d
+			public const int txtPass = 2131034157;
+			
+			// aapt resource value: 0x7f050018
+			public const int txtPassword = 2131034136;
+			
+			// aapt resource value: 0x7f050016
+			public const int txtPhoneNumber = 2131034134;
+			
+			// aapt resource value: 0x7f05002e
+			public const int txtRePass = 2131034158;
 			
 			// aapt resource value: 0x7f05000d
 			public const int txtRight = 2131034125;
@@ -228,8 +225,11 @@ namespace App1
 			// aapt resource value: 0x7f050015
 			public const int txtUsername = 2131034133;
 			
-			// aapt resource value: 0x7f05001e
-			public const int txtusername = 2131034142;
+			// aapt resource value: 0x7f050011
+			public const int txtmsg = 2131034129;
+			
+			// aapt resource value: 0x7f05001f
+			public const int txtusername = 2131034143;
 			
 			static Id()
 			{

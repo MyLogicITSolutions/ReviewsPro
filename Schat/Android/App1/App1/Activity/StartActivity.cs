@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using SChat.Models;
 
 namespace App1
 {
@@ -24,27 +25,16 @@ namespace App1
             {
                 Intent intent = new Intent(this, typeof(ChatListActivity));
                 StartActivity(intent);
-                               
             }
             else
             {
-                Button lgnBtn = FindViewById<Button>(Resource.Id.btnLogin);
-                lgnBtn.Click += delegate
-                {
-                    Intent intent = new Intent(this, typeof(LoginActivity));
-                    StartActivity(intent);
-                };
-
                 Button regBtn = FindViewById<Button>(Resource.Id.btnRegister);
                 regBtn.Click += delegate
                 {
-                    Intent intent = new Intent(this, typeof(Registration));
+                    Intent intent = new Intent(this, typeof(RegistrationActivity));
                     StartActivity(intent);
                 };
-
             }
-
-            // Create your application here
         }
     }
 }

@@ -13,3 +13,8 @@ G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\bin\Debug\SCha
 G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.csprojResolveAssemblyReference.cache
 G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.dll
 G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.pdb
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\bin\Debug\SChat.Models.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\bin\Debug\SChat.Models.pdb
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.csprojResolveAssemblyReference.cache
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Models\obj\Debug\SChat.Models.pdb

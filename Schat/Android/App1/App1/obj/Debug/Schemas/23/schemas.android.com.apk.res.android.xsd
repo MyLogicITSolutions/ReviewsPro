@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>04-04-2017 17:15:49</xs:documentation>
+    <xs:documentation>18-04-2017 17:11:05</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -779,6 +779,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -1416,6 +1417,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2092,6 +2094,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2458,6 +2461,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -2775,6 +2779,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3402,6 +3407,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3723,6 +3729,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4060,6 +4067,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4340,6 +4348,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4597,6 +4606,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5172,6 +5182,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5593,6 +5604,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5980,6 +5992,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6422,6 +6435,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -6739,6 +6753,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7056,6 +7071,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7413,6 +7429,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7730,6 +7747,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -8157,6 +8175,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -8530,6 +8549,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -8811,6 +8831,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -9250,6 +9271,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -9663,6 +9685,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10194,6 +10217,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10663,6 +10687,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -11102,6 +11127,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -11717,6 +11743,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -11956,6 +11983,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12195,6 +12223,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12434,6 +12463,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12673,6 +12703,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12912,6 +12943,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13151,6 +13183,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13390,6 +13423,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13823,6 +13857,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14089,6 +14124,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14328,6 +14364,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14567,6 +14604,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14806,6 +14844,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15085,6 +15124,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15324,6 +15364,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -15641,6 +15682,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15920,6 +15962,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16250,6 +16293,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16489,6 +16533,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16942,7 +16987,6 @@
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkBox1" />
             <xs:enumeration value="@id/btnChangePropic" />
-            <xs:enumeration value="@id/btnLogin" />
             <xs:enumeration value="@id/btnLoginLL" />
             <xs:enumeration value="@id/btnRegister" />
             <xs:enumeration value="@id/btnSend" />
@@ -16976,7 +17020,6 @@
             <xs:enumeration value="@id/textView15" />
             <xs:enumeration value="@id/textView16" />
             <xs:enumeration value="@id/textView17" />
-            <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/txtAddress" />
             <xs:enumeration value="@id/txtContactName" />
             <xs:enumeration value="@id/txtEmail" />
@@ -16984,6 +17027,7 @@
             <xs:enumeration value="@id/txtLastMessage" />
             <xs:enumeration value="@id/txtLeft" />
             <xs:enumeration value="@id/txtMobileNumber" />
+            <xs:enumeration value="@id/txtmsg" />
             <xs:enumeration value="@id/txtNumber" />
             <xs:enumeration value="@id/txtOtp" />
             <xs:enumeration value="@id/txtPass" />
@@ -17072,6 +17116,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -17421,6 +17466,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -17755,6 +17801,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18322,6 +18369,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18647,6 +18695,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19046,6 +19095,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19405,6 +19455,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19660,6 +19711,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20360,6 +20412,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20721,6 +20774,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -21716,6 +21770,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -21967,6 +22022,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22247,6 +22303,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22526,6 +22583,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22765,6 +22823,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -23004,6 +23063,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -23243,6 +23303,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -23482,6 +23543,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -24194,6 +24256,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -24450,6 +24513,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -24767,6 +24831,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -25477,6 +25542,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -25834,6 +25900,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26254,6 +26321,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26603,6 +26671,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26842,6 +26911,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -27625,6 +27695,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -27864,6 +27935,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28103,6 +28175,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28342,6 +28415,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28761,6 +28835,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -29000,6 +29075,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -29407,6 +29483,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -29646,6 +29723,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -29963,6 +30041,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -30645,6 +30724,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -31177,6 +31257,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -31552,6 +31633,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -32742,6 +32824,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33022,6 +33105,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33352,6 +33436,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33671,6 +33756,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33910,6 +33996,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -34189,6 +34276,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -34428,6 +34516,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -34814,6 +34903,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -35053,6 +35143,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -35370,6 +35461,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -35687,6 +35779,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -36004,6 +36097,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -36321,6 +36415,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36586,6 +36681,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36825,6 +36921,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37064,6 +37161,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37303,6 +37401,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37542,6 +37641,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37955,6 +38055,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -38194,6 +38295,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -38433,6 +38535,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -39609,6 +39712,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -40438,6 +40542,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -40848,6 +40953,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -41602,6 +41708,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -42067,6 +42174,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -42322,6 +42430,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -42561,6 +42670,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -42800,6 +42910,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -43117,6 +43228,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -43486,6 +43598,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -43725,6 +43838,7 @@
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@drawable/options_menu" />
             <xs:enumeration value="@drawable/user" />
+            <xs:enumeration value="@drawable/user1" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />

@@ -22,3 +22,11 @@ G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\
 G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.DataAccess.pdb
 G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.Models.dll
 G:\SCHAT\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.Models.pdb
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.DataAccess.dll.config
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.DataAccess.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.DataAccess.pdb
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.Models.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\bin\Debug\SChat.Models.pdb
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\obj\Debug\SChat.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\obj\Debug\SChat.DataAccess.dll
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.DataAccess\obj\Debug\SChat.DataAccess.pdb

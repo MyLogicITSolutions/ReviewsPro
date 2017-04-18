@@ -74,7 +74,7 @@ namespace App1
                         break;
 
                     case Resource.Id.settings:
-                        var intent1 = new Intent(this, typeof(Registration));
+                        var intent1 = new Intent(this, typeof(RegistrationActivity));
                         intent1.PutExtra("MyData", "Wall Store");
                         StartActivity(intent1);
                         break;
@@ -100,9 +100,10 @@ namespace App1
             MenuInflater.Inflate(Resource.Drawable.options_menu, menu);
             return true;
         }
-
-
-
+        public override void OnBackPressed()
+        {
+            FinishAffinity();
+        }
     }
     
 }

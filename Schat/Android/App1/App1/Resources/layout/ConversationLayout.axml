@@ -57,7 +57,7 @@
             <TableRow
                 android:id="@+id/tableRow3">
                 <EditText
-                    android:id="@+id/txtPhoneNumber"
+                    android:id="@+id/txtmsg"
                     android:layout_below="@+id/lblPassword"
                     android:inputType="textMultiLine"
                     android:layout_height="wrap_content"

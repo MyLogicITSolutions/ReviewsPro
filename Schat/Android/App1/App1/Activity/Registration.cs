@@ -23,8 +23,8 @@ using Android.Telephony;
 
 namespace App1
 {
-    [Activity(Label = "Register here" , MainLauncher = false)]
-    public class Registration : Activity
+    [Activity(Label = "Register here" , MainLauncher = false, Icon = "@drawable/conversation")]
+    public class RegistrationActivity : Activity
     {
         public string otp = "";
         protected override void OnCreate(Bundle savedInstanceState)
@@ -68,7 +68,11 @@ namespace App1
                     SendSmsgs(Mobilenumber.Text);
                     var intent = new Intent(this, typeof(VerificationActivity));
                     intent.PutExtra("otp", otp);
-                    intent.PutExtra("username", Mobilenumber.Text);
+                    intent.PutExtra("email", Email.Text);
+                    intent.PutExtra("address", Address.Text);
+                    intent.PutExtra("password", Password.Text);
+                    intent.PutExtra("username", UserName.Text);
+                    intent.PutExtra("mobilenumber", Mobilenumber.Text);
                     StartActivity(intent);
 
                 }
