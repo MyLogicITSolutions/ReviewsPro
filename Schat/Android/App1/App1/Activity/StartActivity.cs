@@ -21,6 +21,7 @@ namespace App1
             base.OnCreate(savedInstanceState);
             Window.RequestFeature(WindowFeatures.NoTitle);
             SetContentView(Resource.Layout.StartLayout);
+            CurrentUser.SaveUserId("9");
             if (CurrentUser.getUserId() != null)
             {
                 Intent intent = new Intent(this, typeof(ChatListActivity));
@@ -37,4 +38,6 @@ namespace App1
             }
         }
     }
+
+    
 }

@@ -2,7 +2,7 @@
 <xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>18-04-2017 17:11:05</xs:documentation>
+    <xs:documentation>20-04-2017 16:46:37</xs:documentation>
   </xs:annotation>
   <xs:attribute name="layout">
     <xs:annotation>
@@ -22,7 +22,9 @@
             <xs:enumeration value="@layout/profileimagelayout" />
             <xs:enumeration value="@layout/profilepicklayout" />
             <xs:enumeration value="@layout/profilepicturesetlayout" />
+            <xs:enumeration value="@layout/receivercell" />
             <xs:enumeration value="@layout/registration" />
+            <xs:enumeration value="@layout/sendercell" />
             <xs:enumeration value="@layout/startlayout" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
@@ -81,7 +83,9 @@
             <xs:enumeration value="@layout/profileimagelayout" />
             <xs:enumeration value="@layout/profilepicklayout" />
             <xs:enumeration value="@layout/profilepicturesetlayout" />
+            <xs:enumeration value="@layout/receivercell" />
             <xs:enumeration value="@layout/registration" />
+            <xs:enumeration value="@layout/sendercell" />
             <xs:enumeration value="@layout/startlayout" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
@@ -140,7 +144,9 @@
             <xs:enumeration value="@layout/profileimagelayout" />
             <xs:enumeration value="@layout/profilepicklayout" />
             <xs:enumeration value="@layout/profilepicturesetlayout" />
+            <xs:enumeration value="@layout/receivercell" />
             <xs:enumeration value="@layout/registration" />
+            <xs:enumeration value="@layout/sendercell" />
             <xs:enumeration value="@layout/startlayout" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
@@ -199,7 +205,9 @@
             <xs:enumeration value="@layout/profileimagelayout" />
             <xs:enumeration value="@layout/profilepicklayout" />
             <xs:enumeration value="@layout/profilepicturesetlayout" />
+            <xs:enumeration value="@layout/receivercell" />
             <xs:enumeration value="@layout/registration" />
+            <xs:enumeration value="@layout/sendercell" />
             <xs:enumeration value="@layout/startlayout" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />

@@ -123,5 +123,7 @@ C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\a
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Numerics.dll.mdb
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll.mdb
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\drawable\user1.png
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\layout\sendercell.xml
+C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\res\layout\receivercell.xml
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\obj\Debug\App1.dll.mdb
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Android\App1\App1\bin\Debug\App1.dll.mdb

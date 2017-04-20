@@ -76,7 +76,10 @@
     <Compile Include="Activity\VerificationActivity.cs" />
     <Compile Include="Adapter\ChatListAdapter.cs" />
     <Compile Include="Adapter\ContactsAdapter.cs" />
+    <Compile Include="Adapter\ReceiverListAdapter.cs" />
+    <Compile Include="Adapter\SenderListAdapter.cs" />
     <Compile Include="Classes\chatList.cs" />
+    <Compile Include="Classes\Conversation.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="serve\BlobWrapper.cs" />
@@ -105,6 +108,12 @@
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ProfilePickLayout.axml" />
     <AndroidResource Include="Resources\layout\ProfileImageLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SenderCell.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ReceiverCell.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

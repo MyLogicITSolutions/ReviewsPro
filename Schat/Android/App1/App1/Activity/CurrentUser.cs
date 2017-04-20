@@ -36,6 +36,10 @@ namespace App1
             _edit.PutString("UserId", UserId);
             _edit.Apply();
         }
+        //public interface IPopupParent
+        //{
+        //    void RefreshParent();
+        //}
 
 
         //public static string getUserName()

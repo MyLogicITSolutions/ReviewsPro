@@ -5,40 +5,20 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="431.5dp"
-        android:id="@+id/relativeLayout1"
-        android:minWidth="25px"
-        android:minHeight="25px">
-        <TableLayout
-            android:minWidth="25px"
-            android:minHeight="25px"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/tableLayout1">
-            <TableRow
-                android:id="@+id/tableRow1"
-                android:gravity="left">
-                <TextView
-                    android:text="HI Medium Text"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:id="@+id/txtLeft"
-                    android:gravity="left" />
-            </TableRow>
-            <TableRow
-                android:id="@+id/tableRow2"
-                android:gravity="right">
-                <TextView
-                    android:text="Medium Text"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:id="@+id/txtRight"
-                    android:layout_weight="1"
-                    android:gravity="right"
-                    android:paddingLeft="150dp" />
-            </TableRow>
-        </TableLayout>
-    </RelativeLayout>
+  <ListView
+      android:minWidth="25px"
+ android:minHeight="25px"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#d7e1f2"
+      android:id="@+id/receiverList" />
+  <ListView
+      android:minWidth="25px"
+      android:minHeight="25px"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#d7e1f2"
+      android:id="@+id/senderList" />
     <RelativeLayout
         android:minWidth="25px"
         android:minHeight="25px"
@@ -58,7 +38,7 @@
                 android:id="@+id/tableRow3">
                 <EditText
                     android:id="@+id/txtmsg"
-                    android:layout_below="@+id/lblPassword"
+                    android:layout_below="@+id/senderList"
                     android:inputType="textMultiLine"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"

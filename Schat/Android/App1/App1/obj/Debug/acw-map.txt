@@ -50,3 +50,11 @@ App1.ContactsAdapter, App1;md5579855c995bdb073d8182511e793544c.ContactsAdapter
 App1.ContactsAdapter, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.ContactsAdapter
 App1.ContactsAdapter;md5579855c995bdb073d8182511e793544c.ContactsAdapter
 app1.ContactsAdapter;md5579855c995bdb073d8182511e793544c.ContactsAdapter
+App1.ReceiverListAdapter, App1;md5579855c995bdb073d8182511e793544c.ReceiverListAdapter
+App1.ReceiverListAdapter, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.ReceiverListAdapter
+App1.ReceiverListAdapter;md5579855c995bdb073d8182511e793544c.ReceiverListAdapter
+app1.ReceiverListAdapter;md5579855c995bdb073d8182511e793544c.ReceiverListAdapter
+App1.SenderListAdapter, App1;md5579855c995bdb073d8182511e793544c.SenderListAdapter
+App1.SenderListAdapter, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.SenderListAdapter
+App1.SenderListAdapter;md5579855c995bdb073d8182511e793544c.SenderListAdapter
+app1.SenderListAdapter;md5579855c995bdb073d8182511e793544c.SenderListAdapter
