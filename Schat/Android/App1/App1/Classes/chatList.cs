@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace App1
 {
-    public class chatList
+    public class ChatList
     {
         public string contacNumber { get; set; }
         public string lastMessage { get; set; }

@@ -166,13 +166,13 @@ namespace App1
         //    }
         //    return 1;
         //}
-        //public async Task<ItemListResponse> GetItemFavsUID(int userId)
-        //{
-        //    var uri = new Uri(ServiceURL + "GetItemFavsUID/" + userId);
-        //    var response = await client.GetStringAsync(uri).ConfigureAwait(false);
-        //    var output = JsonConvert.DeserializeObject<ItemListResponse>(response);
-        //    return output;
-        //}
+        public async Task<ChatListResponse> GetChatList(string userId)
+        {
+            var uri = new Uri(ServiceURL + "ChatList/" + userId);
+            var response = await client.GetStringAsync(uri).ConfigureAwait(false);
+            var output = JsonConvert.DeserializeObject<ChatListResponse>(response);
+            return output;
+        }
         //public async Task<CustomerResponse> GetCustomerDetails(int userID)
         //{
         //    var uri = new Uri(ServiceURL + "GetCustomerDetails/" + userID);

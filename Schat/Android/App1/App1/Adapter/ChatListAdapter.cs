@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Android.Graphics;
 using System.Net;
+using SChat.Models;
 
 namespace App1
 {
@@ -88,8 +89,8 @@ namespace App1
             //    Image.SetImageBitmap(imageBitmap);
             //    }
             //}
-            TxtUserName.Text = myItems[position].contacNumber;
-            TxtLastMessage.Text = myItems[position].lastMessage;
+            TxtUserName.Text = "+91 "+myItems[position].mobile.ToString();
+            TxtLastMessage.Text = "Hi";
             TxtLastMessage.Focusable = false;
             TxtUserName.Focusable = false;
             //date.Text = myItems[position].Date.ToString("dd/MM/yyyy");

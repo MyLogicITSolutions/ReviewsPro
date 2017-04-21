@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System;
 using Android.Views;
 using Android.Content;
+using SChat.Models;
+using System.Linq;
 
 namespace App1
 {
@@ -17,8 +19,13 @@ namespace App1
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.ChatListLayout);
             int senderID = 0;
+            ServiceWrapper svc = new ServiceWrapper();
+            ChatListResponse clr = new ChatListResponse();
+            clr = svc.GetChatList(CurrentUser.getUserId()).Result;
+
             ListView ChatList = FindViewById<ListView>(Resource.Id.chatList);
-            myArr = SampleData();
+            //myArr = SampleData();
+            myArr = clr.ChatLists.ToList<chatList>();
 
             ChatListAdapter adapter = new ChatListAdapter(this, myArr);
             ChatList.Adapter = adapter;
@@ -33,28 +40,28 @@ namespace App1
 
 
         }
-        public List<chatList> SampleData()
-        {
-            List<chatList> myArr = new List<chatList>();
+        //public List<chatList> SampleData()
+        //{
+        //    List<chatList> myArr = new List<chatList>();
 
-            chatList chat1 = new chatList();
-            chat1.contacNumber = "9032559007";
-            chat1.lastMessage = "Hi";
+        //    chatList chat1 = new chatList();
+        //    chat1.contacNumber = "9032559007";
+        //    chat1.lastMessage = "Hi";
 
-            chatList chat2 = new chatList();
-            chat2.contacNumber = "8019808172";
-            chat2.lastMessage = "bye";
+        //    chatList chat2 = new chatList();
+        //    chat2.contacNumber = "8019808172";
+        //    chat2.lastMessage = "bye";
 
-            chatList chat3 = new chatList();
-            chat3.contacNumber = "7331190304";
-            chat3.lastMessage = "hello";
+        //    chatList chat3 = new chatList();
+        //    chat3.contacNumber = "7331190304";
+        //    chat3.lastMessage = "hello";
 
-            myArr.Add(chat1);
-            myArr.Add(chat2);
-            myArr.Add(chat3);
+        //    myArr.Add(chat1);
+        //    myArr.Add(chat2);
+        //    myArr.Add(chat3);
 
-            return myArr;
-        }
+        //    return myArr;
+        //}
 
 
         public override bool OnOptionsItemSelected(IMenuItem item)
