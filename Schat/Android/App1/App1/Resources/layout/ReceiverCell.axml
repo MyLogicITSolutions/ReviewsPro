@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minWidth="25px"
-    android:minHeight="25px">
+    android:minHeight="25px"
+    android:background="@android:color/background_light">
     <TableLayout
         android:minWidth="25px"
         android:minHeight="25px"
@@ -14,14 +15,8 @@
         <TableRow
             android:id="@+id/tableRow1">
             <TextView
-                android:text="                                         "
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:layout_column="0"
-                android:id="@+id/textView13"
-                android:layout_width="250.0dp" />
-            <TextView
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:layout_column="1"
                 android:id="@+id/textView12" />
             <TextView
                 android:text="Medium Text"
@@ -29,7 +24,8 @@
                 android:layout_column="2"
                 android:id="@+id/ReceiverTxt"
                 android:layout_weight="1"
-                android:gravity="right" />
+                android:gravity="right"
+                android:textColor="@android:color/background_dark" />
         </TableRow>
     </TableLayout>
 </LinearLayout>

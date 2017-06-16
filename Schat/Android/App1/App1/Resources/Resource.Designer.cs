@@ -90,14 +90,14 @@ namespace App1
 			// aapt resource value: 0x7f050008
 			public const int ContactsListView = 2131034120;
 			
-			// aapt resource value: 0x7f050033
-			public const int Profile = 2131034163;
-			
-			// aapt resource value: 0x7f050025
-			public const int ReceiverTxt = 2131034149;
-			
 			// aapt resource value: 0x7f050032
-			public const int SenderTxt = 2131034162;
+			public const int Profile = 2131034162;
+			
+			// aapt resource value: 0x7f050024
+			public const int ReceiverTxt = 2131034148;
+			
+			// aapt resource value: 0x7f050031
+			public const int SenderTxt = 2131034161;
 			
 			// aapt resource value: 0x7f05001b
 			public const int btnChangePropic = 2131034139;
@@ -105,8 +105,8 @@ namespace App1
 			// aapt resource value: 0x7f050016
 			public const int btnLoginLL = 2131034134;
 			
-			// aapt resource value: 0x7f050031
-			public const int btnRegister = 2131034161;
+			// aapt resource value: 0x7f050030
+			public const int btnRegister = 2131034160;
 			
 			// aapt resource value: 0x7f05000f
 			public const int btnSend = 2131034127;
@@ -138,8 +138,8 @@ namespace App1
 			// aapt resource value: 0x7f050014
 			public const int linearLayoutBtns = 2131034132;
 			
-			// aapt resource value: 0x7f050035
-			public const int newChat = 2131034165;
+			// aapt resource value: 0x7f050034
+			public const int newChat = 2131034164;
 			
 			// aapt resource value: 0x7f05001a
 			public const int propicview = 2131034138;
@@ -156,8 +156,8 @@ namespace App1
 			// aapt resource value: 0x7f05000a
 			public const int senderList = 2131034122;
 			
-			// aapt resource value: 0x7f050034
-			public const int settings = 2131034164;
+			// aapt resource value: 0x7f050033
+			public const int settings = 2131034163;
 			
 			// aapt resource value: 0x7f050021
 			public const int tableLayout1 = 2131034145;
@@ -171,47 +171,44 @@ namespace App1
 			// aapt resource value: 0x7f05000d
 			public const int tableRow3 = 2131034125;
 			
-			// aapt resource value: 0x7f050026
-			public const int tableRow4 = 2131034150;
+			// aapt resource value: 0x7f050025
+			public const int tableRow4 = 2131034149;
 			
 			// aapt resource value: 0x7f050017
 			public const int textView1 = 2131034135;
 			
-			// aapt resource value: 0x7f050024
-			public const int textView12 = 2131034148;
-			
 			// aapt resource value: 0x7f050023
-			public const int textView13 = 2131034147;
+			public const int textView12 = 2131034147;
+			
+			// aapt resource value: 0x7f050026
+			public const int textView14 = 2131034150;
 			
 			// aapt resource value: 0x7f050027
-			public const int textView14 = 2131034151;
+			public const int textView15 = 2131034151;
 			
-			// aapt resource value: 0x7f050028
-			public const int textView15 = 2131034152;
+			// aapt resource value: 0x7f050029
+			public const int textView16 = 2131034153;
 			
-			// aapt resource value: 0x7f05002a
-			public const int textView16 = 2131034154;
+			// aapt resource value: 0x7f05002c
+			public const int textView17 = 2131034156;
 			
 			// aapt resource value: 0x7f05002d
-			public const int textView17 = 2131034157;
-			
-			// aapt resource value: 0x7f05002e
-			public const int txtAddress = 2131034158;
+			public const int txtAddress = 2131034157;
 			
 			// aapt resource value: 0x7f050002
 			public const int txtContactName = 2131034114;
 			
-			// aapt resource value: 0x7f05002c
-			public const int txtEmail = 2131034156;
+			// aapt resource value: 0x7f05002b
+			public const int txtEmail = 2131034155;
 			
-			// aapt resource value: 0x7f050029
-			public const int txtFullName = 2131034153;
+			// aapt resource value: 0x7f050028
+			public const int txtFullName = 2131034152;
 			
 			// aapt resource value: 0x7f050003
 			public const int txtLastMessage = 2131034115;
 			
-			// aapt resource value: 0x7f05002b
-			public const int txtMobileNumber = 2131034155;
+			// aapt resource value: 0x7f05002a
+			public const int txtMobileNumber = 2131034154;
 			
 			// aapt resource value: 0x7f05001d
 			public const int txtNumber = 2131034141;
@@ -219,8 +216,8 @@ namespace App1
 			// aapt resource value: 0x7f050018
 			public const int txtOtp = 2131034136;
 			
-			// aapt resource value: 0x7f05002f
-			public const int txtPass = 2131034159;
+			// aapt resource value: 0x7f05002e
+			public const int txtPass = 2131034158;
 			
 			// aapt resource value: 0x7f050015
 			public const int txtPassword = 2131034133;
@@ -228,8 +225,8 @@ namespace App1
 			// aapt resource value: 0x7f050013
 			public const int txtPhoneNumber = 2131034131;
 			
-			// aapt resource value: 0x7f050030
-			public const int txtRePass = 2131034160;
+			// aapt resource value: 0x7f05002f
+			public const int txtRePass = 2131034159;
 			
 			// aapt resource value: 0x7f050012
 			public const int txtUsername = 2131034130;

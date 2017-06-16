@@ -5,20 +5,24 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-  <ListView
-      android:minWidth="25px"
- android:minHeight="25px"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:background="#d7e1f2"
-      android:id="@+id/receiverList" />
-  <ListView
-      android:minWidth="25px"
-      android:minHeight="25px"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:background="#d7e1f2"
-      android:id="@+id/senderList" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/receiverList"
+        android:layout_weight="1" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:id="@+id/senderList"
+        android:layout_weight="1" />
     <RelativeLayout
         android:minWidth="25px"
         android:minHeight="25px"
@@ -41,7 +45,7 @@
                     android:layout_below="@+id/senderList"
                     android:inputType="textMultiLine"
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="333.0dp"
                     android:textColor="@android:color/black"
                     android:paddingLeft="5dp"
                     android:paddingTop="1dp"

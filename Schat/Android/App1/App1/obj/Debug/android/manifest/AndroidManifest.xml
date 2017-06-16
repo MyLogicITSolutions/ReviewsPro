@@ -8,7 +8,12 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="Schat" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:label="New Chat" android:name="md5579855c995bdb073d8182511e793544c.PickContactActivity" />
-    <activity android:label="Conversation" android:name="md5579855c995bdb073d8182511e793544c.ConversationActivity" />
+    <activity android:label="Conversation" android:name="md5579855c995bdb073d8182511e793544c.ConversationActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
     <activity android:label="Login here" android:name="md5579855c995bdb073d8182511e793544c.LoginActivity" />
     <activity android:icon="@drawable/icon" android:label="@string/ApplicationName" android:name="md5579855c995bdb073d8182511e793544c.ChatListActivity" />
     <activity android:label="Schat Profile" android:name="md5579855c995bdb073d8182511e793544c.profileActivity" />
@@ -16,12 +21,7 @@
     <activity android:label="@string/ApplicationName" android:theme="@android:style/Theme.Dialog" android:name="md5579855c995bdb073d8182511e793544c.ProfilePicturePickDialog" />
     <activity android:label="Choose profile image here" android:name="md5579855c995bdb073d8182511e793544c.ProfilePictureSetActivity" />
     <activity android:icon="@drawable/conversation" android:label="Register here" android:name="md5579855c995bdb073d8182511e793544c.RegistrationActivity" />
-    <activity android:icon="@drawable/conversation" android:label="@string/ApplicationName" android:name="md5579855c995bdb073d8182511e793544c.StartActivity">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
+    <activity android:icon="@drawable/conversation" android:label="@string/ApplicationName" android:name="md5579855c995bdb073d8182511e793544c.StartActivity" />
     <activity android:label="VerificationActivity" android:name="md5579855c995bdb073d8182511e793544c.VerificationActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="App1.App1.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->

@@ -67,6 +67,7 @@
     <Compile Include="Activity\LoginActivity.cs" />
     <Compile Include="Activity\CurrentUser.cs" />
     <Compile Include="Activity\ChatListActivity.cs" />
+    <Compile Include="Activity\PopupActivity.cs" />
     <Compile Include="Activity\profileActivity.cs" />
     <Compile Include="Activity\ProfilePictureGallery.cs" />
     <Compile Include="Activity\ProfilePicturePickDialog.cs" />
